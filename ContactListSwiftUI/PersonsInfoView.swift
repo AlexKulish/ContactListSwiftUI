@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct PersonsInfoView: View {
+    
+    let persons: [Person]
+    
     var body: some View {
         Image(systemName: "person.circle")
             .resizable()
@@ -17,6 +20,6 @@ struct PersonsInfoView: View {
 
 struct PersonsInfoView_Previews: PreviewProvider {
     static var previews: some View {
-        PersonsInfoView()
+        PersonsInfoView(persons: Person.getPersons())
     }
 }

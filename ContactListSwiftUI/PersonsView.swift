@@ -9,17 +9,22 @@ import SwiftUI
 
 struct PersonsView: View {
     
-    let persons = Person.getPersons()
+    let persons: [Person]
     
     var body: some View {
-        Image(systemName: "person.3.fill")
-            .resizable()
-            .frame(width: 150, height: 150)
+        NavigationView {
+            VStack {
+                List(persons, id: \.name) { person in
+                    Text(person.fullname)
+                }
+            }
+            .navigationTitle("Contact List")
+        }
     }
 }
 
 struct ContactsView_Previews: PreviewProvider {
     static var previews: some View {
-        PersonsView()
+        PersonsView(persons: Person.getPersons())
     }
 }
