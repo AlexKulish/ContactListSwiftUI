@@ -63,10 +63,10 @@
 		5924841627CF7C2E009B3B24 /* ContactListSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				5924843527CFCC0E009B3B24 /* App */,
 				5924842C27CF8AD8009B3B24 /* Views */,
 				5924842627CF7C5E009B3B24 /* Models */,
 				5924842527CF7C51009B3B24 /* Services */,
-				5924841727CF7C2E009B3B24 /* ContactListSwiftUIApp.swift */,
 				5924842B27CF8232009B3B24 /* Resources */,
 				5924841D27CF7C34009B3B24 /* Preview Content */,
 			);
@@ -115,6 +115,14 @@
 				5924843327CFB357009B3B24 /* PersonRow.swift */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		5924843527CFCC0E009B3B24 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5924841727CF7C2E009B3B24 /* ContactListSwiftUIApp.swift */,
+			);
+			name = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
