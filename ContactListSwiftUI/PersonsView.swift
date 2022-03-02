@@ -15,7 +15,10 @@ struct PersonsView: View {
         NavigationView {
             VStack {
                 List(persons, id: \.name) { person in
-                    Text(person.fullname)
+                    
+                    NavigationLink(destination: PersonDetailsView(person: person)) {
+                        PersonRow(person: person)
+                    }
                 }
             }
             .navigationTitle("Contact List")

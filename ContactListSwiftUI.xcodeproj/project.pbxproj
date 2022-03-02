@@ -15,6 +15,8 @@
 		5924842A27CF8021009B3B24 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5924842927CF8021009B3B24 /* Person.swift */; };
 		5924842E27CF8B17009B3B24 /* PersonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5924842D27CF8B17009B3B24 /* PersonsView.swift */; };
 		5924843027CF8C95009B3B24 /* PersonsInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5924842F27CF8C95009B3B24 /* PersonsInfoView.swift */; };
+		5924843227CFAB92009B3B24 /* PersonDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5924843127CFAB92009B3B24 /* PersonDetailsView.swift */; };
+		5924843427CFB357009B3B24 /* PersonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5924843327CFB357009B3B24 /* PersonRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		5924842927CF8021009B3B24 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		5924842D27CF8B17009B3B24 /* PersonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsView.swift; sourceTree = "<group>"; };
 		5924842F27CF8C95009B3B24 /* PersonsInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsInfoView.swift; sourceTree = "<group>"; };
+		5924843127CFAB92009B3B24 /* PersonDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailsView.swift; sourceTree = "<group>"; };
+		5924843327CFB357009B3B24 /* PersonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 				5924841927CF7C2E009B3B24 /* ContentView.swift */,
 				5924842D27CF8B17009B3B24 /* PersonsView.swift */,
 				5924842F27CF8C95009B3B24 /* PersonsInfoView.swift */,
+				5924843127CFAB92009B3B24 /* PersonDetailsView.swift */,
+				5924843327CFB357009B3B24 /* PersonRow.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -182,8 +188,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5924841A27CF7C2E009B3B24 /* ContentView.swift in Sources */,
+				5924843427CFB357009B3B24 /* PersonRow.swift in Sources */,
 				5924842827CF7C9B009B3B24 /* DataManager.swift in Sources */,
 				5924842A27CF8021009B3B24 /* Person.swift in Sources */,
+				5924843227CFAB92009B3B24 /* PersonDetailsView.swift in Sources */,
 				5924842E27CF8B17009B3B24 /* PersonsView.swift in Sources */,
 				5924841827CF7C2E009B3B24 /* ContactListSwiftUIApp.swift in Sources */,
 				5924843027CF8C95009B3B24 /* PersonsInfoView.swift in Sources */,
