@@ -11,6 +11,7 @@
 		5924841A27CF7C2E009B3B24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5924841927CF7C2E009B3B24 /* ContentView.swift */; };
 		5924841C27CF7C34009B3B24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5924841B27CF7C34009B3B24 /* Assets.xcassets */; };
 		5924841F27CF7C34009B3B24 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5924841E27CF7C34009B3B24 /* Preview Assets.xcassets */; };
+		5924842827CF7C9B009B3B24 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5924842727CF7C9B009B3B24 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		5924841927CF7C2E009B3B24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5924841B27CF7C34009B3B24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5924841E27CF7C34009B3B24 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5924842727CF7C9B009B3B24 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,8 @@
 		5924841627CF7C2E009B3B24 /* ContactListSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				5924842627CF7C5E009B3B24 /* Models */,
+				5924842527CF7C51009B3B24 /* Services */,
 				5924841727CF7C2E009B3B24 /* ContactListSwiftUIApp.swift */,
 				5924841927CF7C2E009B3B24 /* ContentView.swift */,
 				5924841B27CF7C34009B3B24 /* Assets.xcassets */,
@@ -65,6 +69,21 @@
 				5924841E27CF7C34009B3B24 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5924842527CF7C51009B3B24 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5924842727CF7C9B009B3B24 /* DataManager.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		5924842627CF7C5E009B3B24 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5924841A27CF7C2E009B3B24 /* ContentView.swift in Sources */,
+				5924842827CF7C9B009B3B24 /* DataManager.swift in Sources */,
 				5924841827CF7C2E009B3B24 /* ContactListSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
