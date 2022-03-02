@@ -12,9 +12,16 @@ struct PersonsInfoView: View {
     let persons: [Person]
     
     var body: some View {
-        Image(systemName: "person.circle")
-            .resizable()
-            .frame(width: 150, height: 150)
+        
+        NavigationView {
+            List(persons, id: \.name) { person in
+                Section(header: Text(person.fullname)) {
+                    Text(person.phone)
+                    Text(person.email)
+                }
+            }
+            .navigationTitle("Contact List")
+        }
     }
 }
 
